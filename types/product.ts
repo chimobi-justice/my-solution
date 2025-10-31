@@ -6,4 +6,11 @@
 // - price: number
 // - inStock: boolean
 
-export type Product = {}
+export type Product = {
+    id: number;
+    name: string;
+    category: string;
+    price: number;
+    inStock: boolean
+  }
+  
